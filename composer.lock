@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c93e00089de7e54be3a828c071b9437",
+    "content-hash": "6043fc1c5652a08ff018225ce014b05e",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -248,13 +248,13 @@
             "authors": [
                 {
                     "name": "Neuman Vong",
-                    "role": "Developer",
-                    "email": "neuman+pear@twilio.com"
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Anant Narayanan",
-                    "role": "Developer",
-                    "email": "anant@php.net"
+                    "email": "anant@php.net",
+                    "role": "Developer"
                 }
             ],
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
@@ -841,8 +841,8 @@
             "authors": [
                 {
                     "name": "Luís Otávio Cobucci Oblonczyk",
-                    "role": "Developer",
-                    "email": "lcobucci@gmail.com"
+                    "email": "lcobucci@gmail.com",
+                    "role": "Developer"
                 }
             ],
             "description": "A simple library to work with JSON Web Token and JSON Web Signature",
@@ -1030,9 +1030,9 @@
             "authors": [
                 {
                     "name": "Alex Bilbie",
-                    "role": "Developer",
                     "email": "hello@alexbilbie.com",
-                    "homepage": "http://www.alexbilbie.com"
+                    "homepage": "http://www.alexbilbie.com",
+                    "role": "Developer"
                 }
             ],
             "description": "A lightweight and powerful OAuth 2.0 authorization and resource server library with support for all the core specification grants. This library will allow you to secure your API with OAuth and allow your applications users to approve apps that want to access their data from your API.",
@@ -1379,28 +1379,28 @@
             "authors": [
                 {
                     "name": "Jim Wigginton",
-                    "role": "Lead Developer",
-                    "email": "terrafrost@php.net"
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Patrick Monnerat",
-                    "role": "Developer",
-                    "email": "pm@datasphere.ch"
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
                 },
                 {
                     "name": "Andreas Fischer",
-                    "role": "Developer",
-                    "email": "bantu@phpbb.com"
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Hans-Jürgen Petrich",
-                    "role": "Developer",
-                    "email": "petrich@tronic-media.com"
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Graham Campbell",
-                    "role": "Developer",
-                    "email": "graham@alt-three.com"
+                    "email": "graham@alt-three.com",
+                    "role": "Developer"
                 }
             ],
             "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
@@ -2068,16 +2068,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.27",
+            "version": "v3.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "fa02215233be8de1c2b44617088192f9e8db3512"
+                "reference": "d2d0cfe8e319d9df44c4cca570710fcf221d4593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/fa02215233be8de1c2b44617088192f9e8db3512",
-                "reference": "fa02215233be8de1c2b44617088192f9e8db3512",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/d2d0cfe8e319d9df44c4cca570710fcf221d4593",
+                "reference": "d2d0cfe8e319d9df44c4cca570710fcf221d4593",
                 "shasum": ""
             },
             "require": {
@@ -2118,7 +2118,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-01T08:04:33+00:00"
+            "time": "2019-11-28T12:52:59+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -2269,16 +2269,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.11.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
                 "shasum": ""
             },
             "require": {
@@ -2290,7 +2290,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2324,20 +2324,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.11.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "bc4858fb611bda58719124ca079baff854149c89"
+                "reference": "af23c7bb26a73b850840823662dda371484926c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/bc4858fb611bda58719124ca079baff854149c89",
-                "reference": "bc4858fb611bda58719124ca079baff854149c89",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/af23c7bb26a73b850840823662dda371484926c4",
+                "reference": "af23c7bb26a73b850840823662dda371484926c4",
                 "shasum": ""
             },
             "require": {
@@ -2347,7 +2347,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2383,7 +2383,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/process",
